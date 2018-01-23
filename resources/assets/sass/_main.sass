@@ -1,0 +1,261 @@
+.TitleFonts
+	font-family: "RobotoRegular"
+.carouselFontMini	
+	font-family: "MyriadProBold"
+.carouselTextBlock
+	font-family: "MyriadProRegular"	
+//NavUP//
+header
+	background: $white
+.navBackG
+	background: $white
+.navbar
+	padding: 0px
+.navUp
+	padding-top: 10px
+	padding-bottom: 10px
+.navUpInputBlock
+	padding-top: 17px
+.navUpInputBtn
+	width: 77px
+	background: $blue
+.navUpInput
+		width: 290px
+		border-radius: 0px
+//NavBar//
+.navBlock
+	background: $colorNav
+.nav-item
+	padding-left: 25px
+	padding-right: 25px
+	padding-top: 10px
+	padding-bottom: 10px
+	transition: 1s
+	&:hover
+		background: $colorNavHover
+	a
+		color: black
+		font-weight: bold
+		font-size: 12px
+		transition: 1s
+		&:hover
+			color: $blue !important
+.buttonsBlock
+	padding-top: 250px
+.btnRowBlock
+	padding-top: 40px
+	button
+		margin-right: 15px
+.BtnDef
+	border: 1px solid $blue
+	color: $blue
+	&:hover
+		border: 1px solid $colorBtnDefHover
+		color: $colorBtnDefHover
+.btnWar
+	background: $colorPink
+	border: 1px solid $colorPink
+	color: $colorWhite
+	&:hover
+		background: $colorPinkHover
+		color: $white
+		border: 1px solid $colorPinkHover
+//INPUTS BLOCK//
+.switch 
+	position: relative
+	display: inline-block
+	width: 44px
+	height: 17px
+.sliderText
+	position: absolute
+	margin-left: 5px
+.slider
+	position: absolute
+	cursor: pointer
+	top: 0
+	left: 0
+	right: 0
+	bottom: 0
+	background-color: $colorPink
+	-webkit-transition: .4s
+	transition: .4s
+.slider:before 
+	position: absolute
+	content: ""
+	height: 12px
+	width: 12px
+	left: 4px
+	bottom: 4px
+	background-color: $white
+	-webkit-transition: .4s
+	transition: .4s
+input:checked + .slider 
+	background-color: $colorCheckSlider
+input:focus + .slider 
+	box-shadow: 0 0 1px $colorCheckSlider
+input:checked + .slider:before 
+	-webkit-transform: translateX(26px)
+	-ms-transform: translateX(26px)
+	transform: translateX(26px)
+.slider.round 
+	border-radius: 35px
+.checkSliderText
+	position: absolute
+	margin-left: 5px
+.slider.round:before 
+	border-radius: 50%
+.inputsBlockSection
+	padding-top: 100px
+	.container
+		h2
+			padding-bottom: 30px
+//Star Block//
+.starBlockSection
+	padding-top: 100px
+	h2
+		padding-bottom: 30px
+.star-rating
+	font-size: 0
+.star-rating__wrap
+	display: inline-block
+	font-size: 1rem
+.star-rating__wrap:after
+	content: ""
+	display: table
+	clear: both
+.star-rating__ico
+	float: right
+	padding-left: 2px
+	cursor: pointer
+	color: $colorStar
+.star-rating__ico:last-child
+	padding-left: 0
+.star-rating__input
+	display: none
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before
+	content: "\f005"
+.starRatingFlex
+	display: flex
+	justify-content: center
+	padding-bottom: 10px
+.starTextMini
+	margin-left: 20px
+// CAROUSEL //
+.imageCarou
+	border-radius: 50%
+.carousel-indicators
+	div
+		width: 50px
+		height: 50px 
+		border-radius: 50%
+		margin-left: 5px
+		margin-right: 5px
+.minione
+	background-image: url('../images/1.jpg')
+	background-size: cover
+	&:hover
+		border: 1px solid $blue
+.minitwo
+	background-image: url('../images/2.jpg')
+	background-size: cover
+	&:hover
+		border: 1px solid $blue
+.minithree
+	background-image: url('../images/3.jpg')
+	background-size: cover
+	&:hover
+		border: 1px solid $blue
+.minifour
+	background-image: url('../images/4.jpg')	
+	background-size: cover
+	&:hover
+		border: 1px solid $blue
+.miniImagesPosition
+	position: relative
+	padding-top: 20px	
+		//MAP
+.mapSection
+	padding-top: 100px
+#map
+	width: 100%
+	height: 450px
+.footerBlockSection
+	background: $colorNav
+	padding-bottom: 40px
+.footPadding
+	padding-top: 50px
+.fooTextTitle
+	color: $blue
+	font-weight: bold
+	list-style-type: none
+	padding-left: 10px
+.fooTextTitleImg
+	color: black
+	font-weight: bold
+	list-style-type: none
+.fooTextMini
+	list-style-type: none
+	a
+		text-decoration: none
+		color: black
+		&:hover
+			color: black
+			text-decoration: none
+			font-weight: 450
+.foominiImg1
+	width: 45px
+	height: 45px
+	background-image: url('../images/icon1.png')	
+	transition: 1s
+	margin-left: 20px
+	&:hover
+		background-image: url('../images/icon11.png')	
+.foominiImg2
+	width: 45px
+	height: 45px
+	background-image: url('../images/icon2.png')	
+	transition: 1s
+	&:hover
+		background-image: url('../images/icon22.png')	
+.foominiImg3
+	width: 45px
+	height: 45px
+	background-image: url('../images/icon3.png')	
+	transition: 1s
+	&:hover
+		background-image: url('../images/icon33.png')	
+.foominiImg4
+	width: 45px
+	height: 45px
+	background-image: url('../images/icon4.png')	
+	transition: 1s
+	&:hover
+		background-image: url('../images/icon44.png')	
+.mobileIconFooSection
+	padding-top: 35px
+	padding-bottom: 35px
+	background: $colorNav
+	border-top: 1px solid $white
+	border-bottom: 1px solid $white
+.fooMarg
+	margin-right: 15px
+	padding-top: 10px
+.card-body
+	background: $colorNav
+.fooTextMini
+	padding: 10px
+.btnMarg
+	margin-bottom: 20px
+	width: 2px !important
+.checkboxPad
+	margin-bottom: 20px
+.carousel
+	border: 1px solid #eee
+.carouselTitle
+	padding-top: 20px
+	padding-bottom: 20px
+section
+	overflow: hidden
+
