@@ -1,0 +1,282 @@
+@font-face
+	font-family: montserrat
+	src: url("../fonts/Montserrat-Bold.otf")
+@font-face
+	font-family: kaushan
+	src: url("../fonts/KaushanScript-Regular.otf")
+section
+	overflow: hidden
+
+header
+	background-image: url('../images/Header1.jpg') 
+	background-size: no-repeat
+	// width: 100%
+	padding-bottom: 200px
+.nav-link
+	color: #fff !important
+	&:hover
+		color: #fbde8a
+		border-bottom: solid 1px #fbde8a
+.nav-item
+	padding-right: 10px	
+	padding-left: 10px
+.navBarBlock	
+	padding-top: 20px
+	// display: flex
+.logoBlock
+	padding-top: 20px
+.logo
+	color: #fff
+	font-size: 32px
+	font-weight: bold
+	font-family: montserrat
+.titleBlockText
+	color: #fff
+	padding-top: 6%
+	h2
+		font-size: 350%
+		font-family: kaushan
+	h1
+		font-size: 400%
+		font-family: montserrat
+.liner
+	color: #fff
+	font-size: 50px		
+.btn-outline-primary
+	border-radius: 0px
+	border: 2px solid #fff
+	color: #fff
+	transition: 1s
+	&:hover
+		background: #e88682
+		border: 2px solid #fff
+.btnBlock
+	padding-top: 10px
+.aboutBlockTitle
+	color: #333333
+	padding-top: 100px
+	h2
+		font-family: kaushan
+		span 
+			font-family: montserrat
+.linerRed
+	color: #f38181
+	font-size: 50px 
+.aboutBlockText
+	color: #999999
+.AboutImagesBlock
+	padding-top: 50px
+	padding-bottom: 110px
+.imagesBlockMini
+	// width: 380px
+	height: 250px
+	border-right: 15px solid #fff
+	border-bottom: 15px solid #fff
+.oneMini
+	background-image: url('../images/33.jpg')
+	background-size: no-repeat
+	transition: 1s
+	&:hover
+		border-right: 10px solid #95e1d3
+		border-bottom: 10px solid #95e1d3
+		transform: translate(-20px,-20px)
+		background-image: linear-gradient(to top,rgba(25, 84, 182, 0.8), rgba(229, 130, 127, 0.8)) , url('../images/33.jpg')
+		z-index: 1
+		position: relative
+		&:after
+			content: url('../images/icon/111.png')
+			position: absolute
+			top: 70px
+			left: 155px
+.twoMini
+	background-image: url('../images/34.jpg')
+	background-size: no-repeat
+	transition: 1s
+	&:hover
+		border-right: 10px solid #95e1d3
+		border-bottom: 10px solid #95e1d3
+		transform: translate(-20px,-20px)
+		z-index: 1
+		background-image: linear-gradient(to top,rgba(25, 84, 182, 0.8), rgba(229, 130, 127, 0.8)) , url('../images/34.jpg')
+		position: relative
+		&:after
+			content: url('../images/icon/222.png')
+			position: absolute
+			top: 70px
+			left: 155px
+.threeMini
+	background-image: url('../images/35.jpg')
+	background-size: no-repeat
+	transition: 1s
+	&:hover
+		border-right: 10px solid #95e1d3
+		z-index: 1
+		border-bottom: 10px solid #95e1d3
+		transform: translate(-20px,-20px)
+		background-image: linear-gradient(to top,rgba(25, 84, 182, 0.8), rgba(229, 130, 127, 0.8)) , url('../images/35.jpg')
+		position: relative
+		&:after
+			content: url('../images/icon/333.png')
+			position: absolute
+			top: 70px
+			left: 155px
+.numberBlock
+	background: #585398
+	// width: 100%
+.numberBlockMini
+	// width: 20%
+	color: #fff
+	border-left: 1px solid #b5eae0
+	border-right: 1px solid #b5eae0
+.numberBlockMiniText
+	padding-top: 50px
+	padding-bottom: 50px
+	span
+		font-size: 75px
+		font-family: montserrat
+		font-weight: bold
+.amazingText
+	padding-top: 50px
+	padding-bottom: 25px
+	border-bottom: 1px solid #a8a8a8
+	h4
+		margin-left: 70px
+		font-size: 15px
+	p
+		margin-left: 70px
+		padding-top: 10px
+		color: #a8a8a8
+.uniqueBlock
+	background-image: url('../images/888.jpg')
+	// width: 100%
+	background-size: no-repeat
+.mobileBlock
+	position: relative
+	padding-bottom: 420px
+	&:after
+		content: url('../images/7.png')
+		position: absolute
+		left: 35%
+		top: 300px
+.card
+	border-radius: 0px
+.card-header
+	background: #fff
+	padding-bottom: 4px
+	padding-top: 5px
+	a
+		text-decoration: none
+		color: black
+		font-size: 15px
+		img
+			padding-right: 10px
+.serviceBlockImg
+	img
+		width: 100%
+.card-body
+	height: 215px
+	overflow-y: scroll
+	&::-webkit-scrollbar-track
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3)
+		background-color: #F5F5F5
+		border-radius: 10px
+	&::-webkit-scrollbar
+		width: 5px
+		background-color: #F5F5F5
+	&::-webkit-scrollbar-thumb
+		border-radius: 10px
+		background-color: #95e1d3
+.carousel-item
+	img
+		border-radius: 100%
+		margin-left: 100px
+		position: relative
+	span
+		position: absolute
+		width: 600px
+		padding-top: 80px
+		font-size: 20px
+		font-style: oblique
+		color: grey
+		right: 70px
+		h2
+			font-family: kaushan
+			color: black
+			i
+				color: #f38181
+				font-family: Arial
+				font-size: 50px
+				font-style: normal
+.controlLeft
+	color: black
+	font-size: 50px
+	margin-right: 20px
+.controlRight
+	color: black
+	font-size: 50px
+	margin-left: 10px
+.carouselBlockPadding
+	padding-top: 100px
+	padding-bottom: 100px
+footer
+	background: linear-gradient(to top,rgba(25, 84, 182, 0.8),rgba(225, 225, 225, 0.5))
+	padding-top: 100px
+	padding-bottom: 100px
+.serviceBlockPadding
+	padding-bottom: 50px
+.footerLeftBlock
+	h2
+		color: #7104b7
+		font-family: montserrat
+		font-size: 45px 
+	p
+		padding-left: 15px
+		color: #999
+		font-size: 13px
+	h5
+		font-family: montserrat
+		border-bottom: 1px solid #e5e5e5
+		padding-bottom: 15px
+		color: #333
+		span
+			font-family: arial
+			font-size: 15px
+	.iconBlock
+		padding-left: 0
+		font-style: oblique
+		font-size: 15px
+		i
+			color: #95e1d3
+			padding-left: 15px
+.input-group
+	input
+		border-radius: 0px
+	button
+		border-radius: 0px
+		background: #95e1d3
+		border: 2px solid #95e1d3
+		width: 150px
+		font-weight: bold
+.footerCenterBlock
+	h5
+		padding-bottom: 25px
+		font-size: 15px
+		color: 333
+.footerCenterBlockMini
+	padding-bottom: 25px
+	h6
+		color: #333
+		span
+			font-style: oblique
+			color: #d7d7d7
+			font-size: 15px
+			font-family: arial
+.tableBlock
+	table
+		border: 3px solid #fff
+		width: 250px
+.footerRightBlock
+	h5
+		padding-bottom: 25px
+		font-size: 15px
+		color: 333
