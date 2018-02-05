@@ -8905,13 +8905,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contentSection .rowRightSectionShould .rowRightSectionShouldBottom .rowRightCommentShould .triagle {
+  position: absolute;
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 10px 10px 0 0;
   border-color: #007bff transparent transparent transparent;
-  margin-left: 181px;
-  margin-top: 3px;
+  top: 100%;
+  right: 0;
 }
 
 .contentSection .rowContentLeftBlockTwo .contentLeftBlockTwo h4 {
