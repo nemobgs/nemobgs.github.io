@@ -1,0 +1,370 @@
+@font-face 
+	font-family: a
+	src: url("../fonts/LeagueGothicRegular.ttf"),
+	url("../fonts/LeagueGothicRegular.eot"),
+	url("../fonts/LeagueGothicRegular.wolf")
+.container
+	width: 1021px !important
+	overflow: hidden
+body
+	color: $fontCol
+h1, h2, h3, h4, h5, h6
+	font-family: a
+/// HEADER UP
+.headerUpSection
+	padding-top: 16px
+	padding-bottom: 19px
+.headerTitleBlock
+	.TitleText
+		.logoBlue
+			color: $blue
+		.logoLBlue
+			color: $lblue
+.headerIconBlock
+	a
+		margin-right: 7px
+	.iconImgBlock1
+		width: 18px
+		height: 18px
+		background-image: url('../images/icon/1.png')
+		transition: 0.5s
+		&:hover
+			background-image: url('../images/icon/1H.png')
+	.iconImgBlock2
+		width: 18px
+		height: 18px
+		background-image: url('../images/icon/2.png')
+		transition: 0.5s
+		&:hover
+			background-image: url('../images/icon/2H.png')
+	.iconImgBlock3
+		width: 18px
+		height: 18px
+		background-image: url('../images/icon/3.png')
+		transition: 0.5s
+		&:hover
+			background-image: url('../images/icon/3H.png')
+	.iconImgBlock4
+		width: 18px
+		height: 18px
+		background-image: url('../images/icon/4.png')
+		transition: 0.5s
+		&:hover
+			background-image: url('../images/icon/4H.png')
+	.iconImgBlock5
+		width: 18px
+		height: 18px
+		background-image: url('../images/icon/5.png')
+		transition: 0.5s
+		&:hover
+			background-image: url('../images/icon/5H.png')
+	.iconImgBlock6
+		width: 18px
+		height: 18px
+		background-image: url('../images/icon/6.png')
+		transition: 0.5s
+		&:hover
+			background-image: url('../images/icon/6H.png')
+// HEADER NAV
+.navBarSection
+	padding-bottom: 15px
+	border-bottom: 2px solid $lblue
+	nav
+		ul
+			li
+				margin-right: 8px
+				margin-left: 8px
+				padding: 0px
+				border-radius: 2px
+				transition: 0.3s
+				&:hover
+					background: $blue
+				a
+					color: $text
+					padding-top: 2px !important
+					padding-bottom: 2px !important
+					transition: 0.3s
+					&:hover
+						color: $white
+/// VISIT SECTION
+.visitSection
+	background-image: url('../images/BG.jpg')
+	background-size: cover
+	background-position: center
+	.rowVisitTitleBlock
+		padding-top: 93px
+		font-family: a
+		font
+		.visitTitleBlock
+			width: 285px
+			background: $bgWhite
+			h2
+				padding-top: 15px
+				font-size: 52px
+				.vizitTitleColorBlue
+					color: $blue
+				.vizitTitleColorLBlue
+					color: $lblue
+	.rowVisitTextBlock
+		padding-top: 19px
+		.visitTextBlock
+			width: 775px
+			background: $bgWhite
+			.visitText
+				font-size: 29px
+				padding-top: 10px
+				.visitTextColBlue
+					color: $blue
+				.visitTextColLBlue
+					color: $lblue
+.rowVisitPeopleBlock
+	padding-top: 69px
+	.VisitPeopleBlock
+		width: 100%
+		padding: 32px
+		background: $bgDark
+		border-bottom: 2px solid $lblue
+		.visitPeopleMiniSection
+			padding-top: 27px
+			.visitPeopleMiniBlock
+				position: relative
+				width: 190px
+				// height: 66px
+				background: $bgWhite
+				border-radius: 50px 0px 0px 50px
+				.visitPeopleMiniImg
+					img
+						border-radius: 50px
+				.visitPeopleMiniBlockText
+					font-style: italic
+					position: absolute
+					font-size: 11px
+					right: 10px
+					top: 0px
+				.EmmaSmith
+
+					right: 5px
+/// CONTENT SECTION
+.contentSection
+	padding-left: 35px
+	padding-right: 35px
+	.rowHeight
+		// height: 193px
+	.rowContentLeftBlockOne
+		.contentLeftBlockOne
+			h4
+				color: $blue
+			p
+				.contentLeftOneName
+				 	color: $blue
+				 	font-weight: bold
+				 	font-size: 13px
+				.contentLeftOneText
+					font-size: 13px
+	.rowRightSectionShould
+		h3
+			color: $blue
+		.RightMiniBlueText
+			font-size: 13px
+		.RightBlockShould
+			.RightMiniBlue
+				width: 50px
+				height: 50px
+				background: $lblue
+				color: $white
+				border-radius: 50px
+				margin-right: 10px
+				margin-top: 10px
+				.RightMiniBlueTextMini
+					font-size: 10px
+					font-weight: bold
+			.RightMiniBlueUser
+				width: 50px
+				height: 50px
+				background-image: url('../images/user.png')
+				color: $white
+				border-radius: 50px
+				margin-right: 26px
+				margin-top: 10px
+				.RightMiniBlueTextMini
+					font-size: 10px
+					font-weight: bold
+		.rowRightSectionShouldBottom
+			padding-top: 30px
+			.rowRightBtnShould
+				button
+					background: $blue
+					border-bottom: 3px solid black
+					border-top: 1px solid $borderButton
+					border-left: 1px solid $borderButton
+					border-right: 1px solid $borderButton
+					font-size: 12px
+					width: 72px
+					height: 23px
+					transition: 0.5s
+					&:hover
+						background: $lblue
+					a
+						color: $white
+						&:hover
+							text-decoration: none
+			.rowRightCommentShould
+				position: relative
+				left: 8px
+				width: 190px
+				height: 27px
+				background: $slblue
+				div
+					a
+						margin-right: 3px
+						margin-left: 5px
+						&:hover
+							text-decoration: none
+						span
+							margin-left: 5px
+							font-size: 13px
+				.triagle
+					width: 0
+					height: 0
+					border-style: solid
+					border-width: 10px 10px 0 0
+					border-color: #007bff transparent transparent transparent
+					margin-left: 181px
+					margin-top: 3px
+	.rowContentLeftBlockTwo
+		.contentLeftBlockTwo
+			h4
+				color: $blue
+			.contentLeftImgBlockOne
+				padding-top: 15px
+				.contentLeftImgOne
+					img
+						margin-top: 5px
+						margin-right: 12px
+				.contentLeftImgTextOne
+					.contentLeftImgTextMiniOne
+						font-size: 13px
+						font-weight: bold
+					.contentLeftImgLinkMiniOne
+						a
+							color: $fontCol
+							font-size: 13px
+							&:hover
+								text-decoration: none
+							span
+								font-style: italic
+								margin-left: 5px
+		.atractionSection
+			width: 669px
+			.atractionBlockContentRow
+				padding-top: 30px
+				position: relative
+				top: 30px
+				.atractionBlock
+					position: relative
+					padding-top: 20px
+					padding-bottom: 20px
+					background: $boxBg
+					border-radius: 25px 0px 0px 0px 
+					box-shadow: 0px 4px 11px -4px #000000
+					.atractionBlockContent
+						padding-left: 10px
+						padding-right: 10px
+						padding-bottom: 15px
+						.atractionUser
+							font-size: 12px
+						.atractionUserContent
+							font-size: 12px
+						h6
+							color: $blue
+							font-size: 22px
+					.atractionBlockComments
+						height: 24px
+						width: 100%
+						background: $boxBgL
+						position: absolute
+						bottom: 0
+						right: 0
+						// margin-top: 193px
+					.atractionBlockComments
+						a
+							margin-left: 5px
+							margin-right: 5px
+					.CommentsLeft
+						margin-top: 24px
+						font-size: 13px
+					.CommentsRight
+						margin-top: 6px
+						font-size: 13px
+	.rowContentLeftSectionThree
+		.rowContentLeftThree
+			h4
+				color: $blue
+			.rowContentLeftTableThree
+				padding-top: 10px
+				table
+					th
+						padding: 3px 6px 3px 6px
+						background: $blue
+						color: $white
+						border: 1px solid $white
+					.Diff
+						padding: 3px 11px 3px 11px
+					tr
+						.bgTableWLblue
+							background: $WLblue
+							color: $blue
+							border: 1px solid $white
+						.bgTableLblue
+							background: $WLDblue
+							color: $blue
+							border: 1px solid $white
+		.rowContentRightSectionThree
+			.rowContentRightBlockThree
+				background: $boxBgL
+				box-shadow: 0px 4px 11px -4px #000000
+				font-size: 14px
+
+// MAP 
+#map 
+  	width: 100%
+  	height: 200px
+  	background-color: grey
+.mapSection
+	padding-top: 20px
+	.mapTitle
+		padding-right: 35px
+		padding-left: 35px
+		h2
+			color: $blue
+	footer
+		padding-right: 35px
+		padding-left: 35px
+		.row
+			padding-top: 17px
+			padding-bottom: 5px	
+			border-bottom: 1px dotted $fontCol
+			.fooTitle
+				h4
+					.fooBlue
+						color: $blue
+					.fooLBlue
+						color: $lblue
+			.fooNav
+				width: 85%
+				ul
+					li
+						a
+							padding: 2px 10px 2px 10px
+							font-size: 13px
+							color: $fontCol
+							transition: 0.5s
+							&:hover
+								color: $lblue
+		.finalText
+			font-size: 12px
+			padding-top: 13px
+			padding-bottom: 13px
+
+
+
