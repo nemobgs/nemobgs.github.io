@@ -8885,9 +8885,12 @@ h1, h2, h3, h4, h5, h6 {
 .contentSection .rowRightSectionShould .rowRightSectionShouldBottom .rowRightCommentShould {
   position: relative;
   left: 8px;
-  width: 190px;
   height: 27px;
   background: #90d4f5;
+}
+
+.contentSection .rowRightSectionShould .rowRightSectionShouldBottom .rowRightCommentShould .likeRow {
+  padding-right: 7px;
 }
 
 .contentSection .rowRightSectionShould .rowRightSectionShouldBottom .rowRightCommentShould div a {
