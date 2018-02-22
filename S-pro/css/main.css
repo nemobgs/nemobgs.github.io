@@ -1,0 +1,389 @@
+@font-face {
+  font-family: "HelveticaRegular";
+  src: url("../fonts/HelveticaRegular/HelveticaRegular.ttf");
+  src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
+  src: url("../fonts/HelveticaRegular/HelveticaRegular.woff");
+}
+@font-face {
+  font-family: "HelveticaLight";
+  src: url("../fonts/HelveticaLight/HelveticaLight.ttf");
+  src: url("../fonts/HelveticaLight/HelveticaLight.eot");
+  src: url("../fonts/HelveticaLight/HelveticaLight.woff");
+}
+@font-face {
+  font-family: "HelveticaBold";
+  src: url("../fonts/HelveticaBold/HelveticaBold.ttf");
+  src: url("../fonts/HelveticaBold/HelveticaBold.eot");
+  src: url("../fonts/HelveticaBold/HelveticaBold.woff");
+}
+@media(min-width: 200px) and (max-width: 760px) {
+  .fooLogoBlock {
+    padding-bottom: 20px !important;
+  }
+
+  .FooTextAdr {
+    display: none;
+  }
+
+  .PeopleBlock {
+    padding-top: 40px;
+  }
+
+  .TwoSectionTitle span {
+    font-size: 15px !important;
+  }
+
+  .LeftHeader {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .LogoTitleText {
+    display: none;
+  }
+
+  .RightHeader {
+    display: none;
+  }
+
+  .container {
+    padding: 0px;
+  }
+
+  .TXtest {
+    font-size: 2rem;
+  }
+
+  .TitleBtn {
+    padding: 15px 10px 15px 10px;
+  }
+
+  .BTNtext {
+    font-size: 15px;
+  }
+
+  .RespBigBlock {
+    display: none;
+  }
+}
+@media(min-width: 761px) and (max-width: 989px) {
+  .HeaderBgBlue {
+    height: 116px;
+  }
+
+  .HeaderBgwhight {
+    height: 116px;
+  }
+
+  .hederBgRowBlue {
+    height: 58px;
+  }
+
+  .hederBgRowWhite {
+    height: 58px;
+  }
+
+  .PeopleBlock {
+    padding-top: 40px;
+  }
+
+  .fooLinkBlock {
+    padding-top: 25px;
+  }
+
+  .LogoTitleText {
+    padding-left: 65px;
+  }
+}
+@media(min-width: 990px) and (max-width: 1200px) {
+  .LogoTitleText {
+    padding-left: 65px;
+  }
+
+  .HeaderBgBlue {
+    height: 116px;
+  }
+
+  .HeaderBgwhight {
+    height: 116px;
+  }
+
+  .hederBgRowBlue {
+    height: 58px;
+  }
+
+  .hederBgRowWhite {
+    height: 58px;
+  }
+
+  .PeopleBlock {
+    padding-top: 40px;
+  }
+
+  .fooLinkBlock {
+    padding-top: 25px;
+  }
+}
+@media(min-width: 1200px) {
+  .TitleBtn {
+    width: 430px;
+    padding: 17px 20px 17px 20px;
+  }
+
+  .row {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .BTNtext {
+    font-size: 16px;
+  }
+
+  .HeaderBgBlue {
+    height: 80px;
+  }
+
+  .HeaderBgwhight {
+    height: 80px;
+  }
+
+  .hederBgRowBlue {
+    height: 40px;
+  }
+
+  .hederBgRowWhite {
+    height: 40px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\000034}}
+body {
+  background: grey;
+  font-family: "HelveticaLight";
+  color: #2e2e2e;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\000038}}
+.row {
+  margin: 0px;
+  padding: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000313}}
+.HeaderSection .HeaderBgBlue {
+  position: absolute;
+  background: #fff;
+  border-radius: 0px 40px 0px 0px;
+  width: 100%;
+  left: 0;
+  border-top: 3px solid #008dc2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000321}}
+.HeaderSection .HeaderBgwhight {
+  right: 0;
+  position: absolute;
+  width: 100%;
+  background: #00acec;
+  border-radius: 0px 0px 0px 38px;
+  border-bottom: 3px solid #008dc2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000328}}
+.HeaderSection .hederBgRowBlue {
+  width: 100%;
+  background: #00acec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000331}}
+.HeaderSection .hederBgRowWhite {
+  width: 100%;
+  background: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000334}}
+.HeaderSection .HeaderContent {
+  padding-top: 5px;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000342}}
+.HeaderSection .HeaderContent .container .row .LeftHeader {
+  background: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000344}}
+.HeaderSection .HeaderContent .container .row .LeftHeader .LogoBlock {
+  margin-right: 28px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000347}}
+.HeaderSection .HeaderContent .container .row .LeftHeader .LOgoTitle .LogoTitleText {
+  font-size: 16px;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #2e2e2e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000352}}
+.HeaderSection .HeaderContent .container .row .RightHeader {
+  background: #00acec;
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000355}}
+.HeaderSection .HeaderContent .container .row .RightHeader .HeadTextADR {
+  margin-bottom: 9px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000357}}
+.HeaderSection .HeaderContent .container .row .RightHeader .HeadTextADR span {
+  font-size: 13px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000361}}
+.HeaderSection .HeaderContent .container .row .RightHeader .HeadTextTEL .telNumber img {
+  margin-left: 38px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000363}}
+.HeaderSection .HeaderContent .container .row .RightHeader .HeadTextTEL .telNumber span {
+  margin-left: 15px;
+  font-size: 23px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000367}}
+.TitleSection {
+  width: 100%;
+  background-image: url("../img/Bg/1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000373}}
+.TitleSection .TitleTextblock {
+  padding-top: 185px;
+  padding-bottom: 100px;
+  font-family: "HelveticaBold";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000379}}
+.TitleSection .TitleTextblock .TXtest .TXtestBlue {
+  color: #0085b6;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000381}}
+.TitleSection .TitleTextblock .TXtest .TXtestWhite {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000383}}
+.TitleSection .TitleTextblock .TXpractic {
+  font-family: "HelveticaLight";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000385}}
+.TitleSection .TitleTextblock .TitleBtn {
+  font-family: "HelveticaLight";
+  background: #0085b6;
+  border-radius: 25px;
+  color: #fff;
+  -webkit-box-shadow: 0px 24px 59px -26px #000000;
+          box-shadow: 0px 24px 59px -26px #000000;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000393}}
+.TitleSection .TitleTextblock .TitleBtn:hover {
+  background: #00acec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\0000395}}
+.TitleSection .TitleTextblock .TitleBtn:before {
+  border: 1px solid #fff;
+  padding: 10px 20px 10px 20px;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  right: 4px;
+  border-radius: 25px;
+  bottom: 4px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003109}}
+.TwoSection {
+  background-image: url("../img/Bg/2.jpg");
+  width: 100%;
+  padding-bottom: 105px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003118}}
+.TwoSection .container .row .TwoSectionTitle {
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003121}}
+.TwoSection .container .row .TwoSectionTitle span {
+  padding: 10px;
+  font-size: 22px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003124}}
+.TwoSection .container .row .TwoSectionTitle .TwoTitleBorderClrLeft {
+  border-left: 2px solid #00acec;
+  border-top: 2px solid #00acec;
+  border-bottom: 2px solid #00acec;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003128}}
+.TwoSection .container .row .TwoSectionTitle .TwoTitleBorderClrRight {
+  border-right: 2px solid #fff;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003135}}
+.TwoSection .container .row .PeopleBlockImg img {
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003137}}
+.TwoSection .container .row .peopleBlockContent {
+  -webkit-box-shadow: 1px 3px 7px -3px #000000;
+          box-shadow: 1px 3px 7px -3px #000000;
+  color: #fff;
+  width: 100%;
+  height: 131px;
+  background-image: url("../img/Bg/Mini1.jpg");
+  background-position: center;
+  background-size: 120%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003146}}
+.FooterSection {
+  width: 100%;
+  background: #476069;
+  padding-top: 35px;
+  padding-bottom: 58px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003155}}
+.FooterSection .container .row .fooTelBlock span {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003157}}
+.FooterSection .container .row .fooTelBlock .FooTextAdr {
+  font-size: 13px;
+  margin-right: 38px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003160}}
+.FooterSection .container .row .fooTelBlock .FooTextTel {
+  font-size: 23px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003162}}
+.FooterSection .container .row .fooTelBlock .FooTextTel img {
+  margin-right: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003166}}
+.FooterSection .container .row .fooLinkBlock .row .FooLinkIcons {
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003168}}
+.FooterSection .container .row .fooLinkBlock .CompanyName {
+  padding-top: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/S-pro\/sass\/main\.sass}line{font-family:\00003170}}
+.FooterSection .container .row .fooLinkBlock .CompanyName .CompanyNameText {
+  color: #799199;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=main.css.map */
