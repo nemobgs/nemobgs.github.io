@@ -1,0 +1,1205 @@
+@font-face {
+  font-family: "MuseoRegular";
+  src: url("../fonts/MuseoRegular/MuseoRegular.ttf");
+  src: url("../fonts/MuseoRegular/MuseoRegular.eot");
+  src: url("../fonts/MuseoRegular/MuseoRegular.woff");
+}
+@media(min-width: 200px) and (max-width: 760px) {
+  .cartBlock {
+    width: 52px;
+    height: 52px;
+    background: #d3c29f;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    left: 145px;
+  }
+  .cartBlock:hover {
+    background: #874463;
+  }
+  .cartBlock a img {
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .cartBlock a img:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  .cartBlock .countCart {
+    position: absolute;
+    bottom: -2px;
+    right: -8px;
+    background: #cf9893;
+    padding: 0px 6px 0px 6px;
+    border-radius: 50%;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .cartBlock .countCart:hover {
+    background: #d34d64;
+  }
+  .cartBlock .countCart a {
+    color: #fff;
+  }
+  .cartBlock .countCart a:hover {
+    text-decoration: none;
+  }
+
+  .mobMenuLoginUser a span {
+    color: #d3c29f;
+    text-decoration: underline;
+  }
+
+  .RespInp {
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 2px solid #fff;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+  }
+
+  .iconSearch {
+    background: #d3c29f;
+    border-radius: 50%;
+  }
+
+  .mobBurgerMenuContent {
+    display: block !important;
+  }
+
+  .MobLangDrop {
+    display: block !important;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+  }
+  .MobLangDrop .dropdown .dropdown-menu {
+    min-width: 0px;
+  }
+  .MobLangDrop .mobLangBtn {
+    background: #fff;
+  }
+
+  .lookContent {
+    height: 100vh;
+    position: absolute;
+    background-size: cover !important;
+    top: 0;
+  }
+
+  .contentBlocksBig {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .contentBlocksBig .contentBlocks {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .contentBlocksBig .contentBlocks .RespIconContent {
+    background: #fff;
+    padding: 25px 25px 25px 25px !important;
+  }
+
+  .menuNavContent {
+    background: rgba(0, 0, 0, 0) !important;
+  }
+
+  .navMenuBurger {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    display: block !important;
+    background: #cf9893;
+    width: 60px;
+    height: 55px;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .navMenuBurger:hover {
+    background: #b7655e;
+  }
+  .navMenuBurger:hover .respContentBurger {
+    display: block;
+  }
+  .navMenuBurger .respContentBurger {
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #874463;
+    position: absolute;
+    top: 0;
+    opacity: 0.9;
+    color: #fff;
+    z-index: 999;
+    display: none;
+  }
+  .navMenuBurger .respContentBurger ul {
+    padding: 0px;
+  }
+  .navMenuBurger .respContentBurger ul li {
+    list-style-type: none;
+    padding: 12px 0px 12px 0px;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  .navMenuBurger .respContentBurger ul li:hover {
+    background: #fff;
+    color: #874463;
+  }
+  .navMenuBurger .respContentBurger ul li a {
+    color: #fff;
+    display: block;
+  }
+  .navMenuBurger .respContentBurger ul li a:hover {
+    color: #874463;
+    display: block;
+    text-decoration: none;
+  }
+  .navMenuBurger .respContentBurger ul .liUpBurger {
+    margin-top: 28px;
+  }
+  .navMenuBurger .respContentBurger a .burgerClose {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+  }
+
+  .numberBlock {
+    font-size: 9px;
+  }
+
+  .respContainer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .RespIconContent {
+    border: 0px !important;
+  }
+
+  .titleContent {
+    display: none;
+  }
+
+  .RespSlickContent {
+    height: 750px;
+  }
+
+  .logoBlock {
+    position: relative;
+    left: -15px;
+  }
+
+  .LogoImg {
+    width: 120px;
+  }
+
+  .botNavRow {
+    display: none;
+  }
+
+  .upNavRow {
+    margin-left: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .logBlock {
+    display: none;
+  }
+}
+@media(min-width: 761px) and (max-width: 989px) {
+  .titleContent h1 {
+    padding-top: 16px !important;
+  }
+
+  .RespSlickContent {
+    height: 750px;
+  }
+
+  .lookContent {
+    widht: 100% !important;
+    height: 200px;
+  }
+
+  .menuNavContent {
+    border-radius: 0px !important;
+  }
+
+  .navMenuBurger {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    display: block !important;
+    background: #cf9893;
+    width: 60px;
+    height: 55px;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .navMenuBurger:hover {
+    background: #b7655e;
+  }
+  .navMenuBurger:hover .respContentBurger {
+    display: block;
+  }
+  .navMenuBurger .respContentBurger {
+    width: 200px;
+    height: 200px;
+    background: #874463;
+    position: absolute;
+    top: 0;
+    opacity: 0.9;
+    color: #fff;
+    z-index: 999;
+    display: none;
+  }
+  .navMenuBurger .respContentBurger ul {
+    padding: 0px;
+  }
+  .navMenuBurger .respContentBurger ul li {
+    list-style-type: none;
+    padding: 12px 0px 12px 0px;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  .navMenuBurger .respContentBurger ul li:hover {
+    background: #fff;
+    color: #874463;
+  }
+  .navMenuBurger .respContentBurger ul li a {
+    color: #fff;
+    display: block;
+  }
+  .navMenuBurger .respContentBurger ul li a:hover {
+    color: #874463;
+    display: block;
+    text-decoration: none;
+  }
+  .navMenuBurger .respContentBurger ul .liUpBurger {
+    margin-top: 28px;
+  }
+  .navMenuBurger .respContentBurger a .burgerClose {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+  }
+
+  .container {
+    min-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .RespIconContent {
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+
+  .RespInp {
+    display: none;
+  }
+
+  .respNav {
+    display: none;
+  }
+
+  .LogoImg {
+    width: 190px;
+  }
+
+  .respContainer {
+    position: relative;
+  }
+  .respContainer .upBG {
+    position: relative;
+  }
+  .respContainer .upBG .logoBlock {
+    position: absolute;
+    left: 70px;
+  }
+
+  .numberBlock span {
+    font-size: 13px;
+    margin-right: 10px;
+  }
+
+  .logBlock {
+    margin-left: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .logBlock a {
+    margin-right: 10px;
+  }
+  .logBlock a span {
+    font-size: 13px;
+  }
+  .logBlock a img {
+    width: 15px;
+    margin-left: 5px;
+  }
+
+  .respBr {
+    display: block;
+  }
+
+  .upNavRow {
+    position: relative;
+    width: 260px;
+  }
+
+  .upNav {
+    display: none;
+  }
+
+  .RespUpNav {
+    display: block !important;
+  }
+  .RespUpNav .row .upNavRow .numberBlock span {
+    color: #8a8a8b;
+  }
+  .RespUpNav .row .upNavRow .logBlock a span {
+    color: #cf9893;
+    text-decoration: underline;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .RespUpNav .row .upNavRow .logBlock a span:hover {
+    color: #b7655e;
+  }
+  .RespUpNav .margRespNav {
+    margin-left: 250px;
+  }
+  .RespUpNav .botNavRow {
+    margin-left: 50px;
+  }
+
+  .rightNav .seachInp .iconSearch {
+    width: 35px;
+    height: 35px;
+    background: #cf9893;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .rightNav .seachInp .iconSearch:hover {
+    background: #b7655e;
+  }
+
+  .dropLang button {
+    background: rgba(0, 0, 0, 0);
+    color: #8a8a8b;
+    outline: none;
+  }
+  .dropLang button .dropdown-menu {
+    min-width: 0;
+  }
+
+  .cartBlock {
+    width: 52px;
+    height: 52px;
+    background: #d3c29f;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .cartBlock:hover {
+    background: #874463;
+  }
+  .cartBlock a img {
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .cartBlock a img:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  .cartBlock .countCart {
+    position: absolute;
+    bottom: -2px;
+    right: -8px;
+    background: #cf9893;
+    padding: 0px 6px 0px 6px;
+    border-radius: 50%;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .cartBlock .countCart:hover {
+    background: #d34d64;
+  }
+  .cartBlock .countCart a {
+    color: #fff;
+  }
+  .cartBlock .countCart a:hover {
+    text-decoration: none;
+  }
+
+  .menuNavContent {
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .titleContent h1 {
+    padding-top: 224px;
+  }
+}
+@media(min-width: 990px) and (max-width: 1200px) {
+  .titleContent h1 {
+    padding-top: 16px !important;
+  }
+
+  .RespSlickContent {
+    height: 75vh;
+  }
+
+  .lookContent {
+    widht: 100% !important;
+    height: 200px;
+  }
+
+  .menuNavContent {
+    border-radius: 0px !important;
+  }
+
+  .navMenuBurger {
+    position: absolute;
+    top: 15px;
+    left: 133px;
+    display: block !important;
+    background: #cf9893;
+    width: 60px;
+    height: 55px;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .navMenuBurger:hover {
+    background: #b7655e;
+  }
+  .navMenuBurger:hover .respContentBurger {
+    display: block;
+  }
+  .navMenuBurger .respContentBurger {
+    width: 200px;
+    height: 200px;
+    background: #874463;
+    position: absolute;
+    top: 0;
+    opacity: 0.9;
+    color: #fff;
+    z-index: 999;
+    display: none;
+  }
+  .navMenuBurger .respContentBurger ul {
+    padding: 0px;
+  }
+  .navMenuBurger .respContentBurger ul li {
+    list-style-type: none;
+    padding: 12px 0px 12px 0px;
+    -webkit-transition: 0.8s;
+    transition: 0.8s;
+  }
+  .navMenuBurger .respContentBurger ul li:hover {
+    background: #fff;
+    color: #874463;
+  }
+  .navMenuBurger .respContentBurger ul li a {
+    color: #fff;
+    display: block;
+  }
+  .navMenuBurger .respContentBurger ul li a:hover {
+    color: #874463;
+    display: block;
+    text-decoration: none;
+  }
+  .navMenuBurger .respContentBurger ul .liUpBurger {
+    margin-top: 28px;
+  }
+  .navMenuBurger .respContentBurger a .burgerClose {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+  }
+
+  .container {
+    min-width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .RespIconContent {
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+
+  .RespInp {
+    display: none;
+  }
+
+  .respNav {
+    display: none;
+  }
+
+  .LogoImg {
+    width: 190px;
+  }
+
+  .respContainer {
+    position: relative;
+  }
+  .respContainer .upBG {
+    position: relative;
+  }
+  .respContainer .upBG .logoBlock {
+    position: absolute;
+    left: 200px;
+  }
+
+  .numberBlock span {
+    font-size: 13px;
+    margin-right: 10px;
+  }
+
+  .logBlock {
+    margin-left: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .logBlock a {
+    margin-right: 10px;
+  }
+  .logBlock a span {
+    font-size: 13px;
+  }
+  .logBlock a img {
+    width: 15px;
+    margin-left: 5px;
+  }
+
+  .respBr {
+    display: block;
+  }
+
+  .upNavRow {
+    position: relative;
+    width: 260px;
+  }
+
+  .upNav {
+    display: none;
+  }
+
+  .RespUpNav {
+    display: block !important;
+  }
+  .RespUpNav .row .upNavRow .numberBlock span {
+    color: #8a8a8b;
+  }
+  .RespUpNav .row .upNavRow .logBlock a span {
+    color: #cf9893;
+    text-decoration: underline;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .RespUpNav .row .upNavRow .logBlock a span:hover {
+    color: #b7655e;
+  }
+  .RespUpNav .margRespNav {
+    margin-left: 250px;
+  }
+  .RespUpNav .botNavRow {
+    margin-left: 50px;
+  }
+
+  .rightNav .seachInp .iconSearch {
+    width: 35px;
+    height: 35px;
+    background: #cf9893;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .rightNav .seachInp .iconSearch:hover {
+    background: #b7655e;
+  }
+
+  .dropLang button {
+    background: rgba(0, 0, 0, 0);
+    color: #8a8a8b;
+    outline: none;
+  }
+  .dropLang button .dropdown-menu {
+    min-width: 0;
+  }
+
+  .cartBlock {
+    width: 52px;
+    height: 52px;
+    background: #d3c29f;
+    border-radius: 50%;
+    position: relative;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .cartBlock:hover {
+    background: #874463;
+  }
+  .cartBlock a img {
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .cartBlock a img:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  .cartBlock .countCart {
+    position: absolute;
+    bottom: -2px;
+    right: -8px;
+    background: #cf9893;
+    padding: 0px 6px 0px 6px;
+    border-radius: 50%;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .cartBlock .countCart:hover {
+    background: #d34d64;
+  }
+  .cartBlock .countCart a {
+    color: #fff;
+  }
+  .cartBlock .countCart a:hover {
+    text-decoration: none;
+  }
+
+  .menuNavContent {
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .titleContent h1 {
+    padding-top: 224px;
+  }
+}
+@media(min-width: 1200px) {
+  .RespSlickContent {
+    height: 90vh;
+  }
+
+  .menuNavContent {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .lookContent {
+    widht: 80%;
+    height: 350px;
+  }
+
+  .respBr {
+    display: none;
+  }
+
+  .upNavRow {
+    border-bottom: 1px solid #8a8a8b;
+  }
+
+  .container {
+    min-width: 1250px;
+  }
+
+  .RespIconContent {
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+
+  .cartBlock {
+    top: -37px;
+  }
+
+  .numberBlock span {
+    font-size: 18px;
+    margin-right: 45px;
+  }
+
+  .logBlock {
+    margin-left: 20px;
+  }
+  .logBlock a {
+    margin-right: 30px;
+  }
+  .logBlock a span {
+    font-size: 18px;
+  }
+  .logBlock a img {
+    margin-left: 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\000034}}
+body {
+  font-family: "MuseoRegular";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\000036}}
+.RespUpNav {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\000038}}
+.navMenuBurger {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000310}}
+.MobLangDrop {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000312}}
+.mobBurgerMenuContent {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000314}}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000317}}
+.container-fluid {
+  padding: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000319}}
+.navbarSection {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(#fff, rgba(0, 0, 0, 0));
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000325}}
+.navbarSection .container .upBG {
+  padding-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000329}}
+.navbarSection .container .navContentRow .menuNavContent {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.5)), to(#fff));
+  background: linear-gradient(rgba(255, 255, 255, 0.5), #fff);
+  border-radius: 10px 10px 10px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000335}}
+.navbarSection .container .navContentRow .menuNavContent ul {
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000339}}
+.navbarSection .container .navContentRow .menuNavContent ul li a {
+  border-right: 1px solid #8a8a8b;
+  font-size: 12px;
+  color: #8a8a8b;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000346}}
+.navbarSection .container .navContentRow .menuNavContent ul li a:hover {
+  background: #d3c29f;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000348}}
+.navbarSection .container .navContentRow .menuNavContent ul li a span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000351}}
+.navbarSection .container .navContentRow .menuNavContent ul li a img {
+  width: 45px;
+  height: 45px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000354}}
+.navbarSection .container .navContentRow .menuNavContent ul li .finBockIcon {
+  border-right: 0px !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000356}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000358}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000360}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks:hover .lookContent {
+  display: block;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000363}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks .lookContent {
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  display: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 6px 34px -11px #000000;
+          box-shadow: 0px 6px 34px -11px #000000;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000374}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks .fin1 {
+  margin-top: 25px;
+  background-image: url("../img/final/1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000379}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks .fin11 {
+  margin-top: 25px;
+  background-image: url("../img/final/13.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000384}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks .fin2 {
+  margin-top: 25px;
+  background-image: url("../img/final/2.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000389}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks .fin3 {
+  margin-top: 25px;
+  background-image: url("../img/final/3.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000394}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks .fin4 {
+  margin-top: 25px;
+  background-image: url("../img/final/4.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\0000399}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks .fin5 {
+  margin-top: 25px;
+  background-image: url("../img/final/5.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003104}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks .fin6 {
+  margin-top: 25px;
+  background-image: url("../img/final/12.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003109}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks .fin7 {
+  margin-top: 25px;
+  background-image: url("../img/final/7.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003114}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks .fin8 {
+  margin-top: 25px;
+  background-image: url("../img/final/8.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003119}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks .fin9 {
+  margin-top: 25px;
+  background-image: url("../img/final/9.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003124}}
+.navbarSection .container .navContentRow .menuNavContent ul .contentBlocks .fin10 {
+  margin-top: 25px;
+  background-image: url("../img/final/10.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003131}}
+.navbarSection .container .row .upNav .upNavRow {
+  margin-left: 20px;
+  padding-bottom: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003136}}
+.navbarSection .container .row .upNav .upNavRow .numberBlock span {
+  color: #8a8a8b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003144}}
+.navbarSection .container .row .upNav .upNavRow .logBlock a span {
+  color: #cf9893;
+  text-decoration: underline;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003149}}
+.navbarSection .container .row .upNav .upNavRow .logBlock a span:hover {
+  color: #b7655e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003153}}
+.navbarSection .container .row .upNav .botNavRow {
+  padding-top: 10px;
+  margin-left: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003157}}
+.navbarSection .container .row .upNav .botNavRow .navBar ul {
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003160}}
+.navbarSection .container .row .upNav .botNavRow .navBar ul li a {
+  margin-right: 18px;
+  color: #333333;
+  font-size: 17px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003165}}
+.navbarSection .container .row .upNav .botNavRow .navBar ul li a:hover {
+  color: #cf9893;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003167}}
+.navbarSection .container .row .upNav .botNavRow .navBar ul li a:hover::after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003169}}
+.navbarSection .container .row .upNav .botNavRow .navBar ul li a::after {
+  content: "";
+  width: 100%;
+  display: block;
+  height: 2px;
+  background: #cf9893;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003177}}
+.navbarSection .container .row .upNav .botNavRow .rightNav {
+  margin-left: 90px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003179}}
+.navbarSection .container .row .upNav .botNavRow .rightNav .seachInp {
+  margin-right: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003181}}
+.navbarSection .container .row .upNav .botNavRow .rightNav .seachInp .iconSearch {
+  width: 35px;
+  height: 35px;
+  background: #cf9893;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003187}}
+.navbarSection .container .row .upNav .botNavRow .rightNav .seachInp .iconSearch:hover {
+  background: #b7655e;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003189}}
+.navbarSection .container .row .upNav .botNavRow .rightNav .seachInp input {
+  background: rgba(0, 0, 0, 0);
+  border-bottom: 1px solid #8a8a8b;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  font-size: 13px;
+  font-family: arial;
+  outline: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003199}}
+.navbarSection .container .row .upNav .botNavRow .dropLang button {
+  background: rgba(0, 0, 0, 0);
+  color: #8a8a8b;
+  outline: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003203}}
+.navbarSection .container .row .upNav .botNavRow .dropLang .dropdown-menu {
+  min-width: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003205}}
+.navbarSection .container .row .upNav .botNavRow .cartBlock {
+  margin-left: 25px;
+  width: 52px;
+  height: 52px;
+  background: #d3c29f;
+  border-radius: 50%;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003214}}
+.navbarSection .container .row .upNav .botNavRow .cartBlock:hover {
+  background: #874463;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003217}}
+.navbarSection .container .row .upNav .botNavRow .cartBlock a img {
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003219}}
+.navbarSection .container .row .upNav .botNavRow .cartBlock a img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003221}}
+.navbarSection .container .row .upNav .botNavRow .cartBlock .countCart {
+  position: absolute;
+  bottom: -2px;
+  right: -8px;
+  background: #cf9893;
+  padding: 0px 6px 0px 6px;
+  border-radius: 50%;
+  color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003230}}
+.navbarSection .container .row .upNav .botNavRow .cartBlock .countCart:hover {
+  background: #d34d64;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003232}}
+.navbarSection .container .row .upNav .botNavRow .cartBlock .countCart a {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003234}}
+.navbarSection .container .row .upNav .botNavRow .cartBlock .countCart a:hover {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003238}}
+.slick-dots li button {
+  border-radius: 50%;
+  background: #efeeee;
+  position: absolute;
+  top: -45px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003245}}
+.slick-dots li button:before {
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003247}}
+.slick-dots li button:hover {
+  background: #cf9893;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003251}}
+.slick-active button:before {
+  background: #cf9893;
+  border-radius: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003257}}
+.sl .slick-dots li button {
+  border-radius: 50%;
+  background: #efeeee;
+  position: absolute;
+  top: -45px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003264}}
+.sl .slick-dots li button:before {
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003266}}
+.sl .slick-dots li button:hover {
+  background: #cf9893;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003270}}
+.sl .slick-active button:before {
+  background: #cf9893;
+  border-radius: 50%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003273}}
+.sl .slick-prev {
+  position: absolute;
+  left: 30px;
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003277}}
+.sl .slick-next {
+  position: absolute;
+  right: 30px;
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003281}}
+.sl .slContent1 {
+  width: 100%;
+  background-image: url("../img/slick/1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003290}}
+.sl .slContent1 .titleContent {
+  padding-top: 20%;
+  padding-bottom: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003293}}
+.sl .slContent1 .titleContent h1 {
+  font-size: 45px;
+  background: radial-gradient(rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0));
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003296}}
+.sl .slContent1 .titleContent h1 .TitlePink {
+  color: #d34d64;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003298}}
+.sl .slContent1 .titleContent p {
+  color: #8a8a8b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003300}}
+.sl .slContent2 {
+  width: 100%;
+  background-image: url("../img/slick/2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003308}}
+.sl .slContent3 {
+  width: 100%;
+  background-image: url("../img/slick/3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/new\/sass\/main\.sass}line{font-family:\00003316}}
+.sl .slContent4 {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../img/slick/4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=main.css.map */
