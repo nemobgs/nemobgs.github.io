@@ -1,0 +1,146 @@
+@media(min-width: 200px) and (max-width: 760px)
+	.Mobile__header-section
+		display: block !important
+		.Mobile__header-block
+			height: 60px
+			.Mobile__header-item
+				display: flex
+				height: 100%
+				width: 100%
+				justify-content: center
+				align-items: center
+				background: $lMobGrey
+				transition: 0.7s
+				&:hover
+					background: $blue
+	.Mobile__header-burger
+		background: $blue !important
+		&:hover
+			.burger__menu
+				display: block
+	.burger__menu
+		background: $blue
+		position: absolute
+		z-index: 999
+		top: 0
+		left: 0
+		width: 600%
+		padding: 15px
+		display: none
+		.burger__menu-ul
+			padding: 0
+			.burger__menu-item
+				display: flex
+				justify-content: center
+				list-style-type: none
+				padding: 8px 0px
+				transition: 0.7s
+				&:hover
+					background: darken($blue,25%)
+				.burger__menu-link
+					color: $white
+					transition: 0.7s
+					display: block
+	.header-section
+		display: none
+	nav
+		display: none
+	.slick-arrow
+		height: 47px
+	.sl__slide
+		img
+			height: 122px
+		.sl__slide_title
+			top: 29%
+			left: 25px !important
+			font-size: 17px
+			padding: 0px 10px !important
+
+@media(min-width: 761px) and (max-width: 989px)
+	.header__logo-block_img
+		img
+			width: 175px
+	.header__logo-text 
+		span
+			font-size: 10px
+	.header__contact-tel
+		padding-right: 8px
+		span
+			font-size: 12px
+	.header__contact-week
+		span
+			font-size: 8px
+	.nav__Shop-block_resp-md
+		display: block !important
+		.nav__Shop-block-width_resp-md
+			width: 100%
+			padding-bottom: 10px
+	.sl__slide
+		img
+			height: 166px
+		.sl__slide_title
+			top: 28%
+			left: 50px
+			font-size: 24px
+	.slick-arrow
+		height: 75px
+		
+@media(min-width: 990px) and (max-width: 1200px)
+	.slick-arrow
+		height: 100px
+	.sl__slide
+		img
+			// height: 166px
+		.sl__slide_title
+			top: 35%
+			left: 50px
+			font-size: 35px
+	.container
+		max-width: 1350px
+	.heder__container-block
+		padding-left: 50px
+		padding-right: 50px
+	.header__logo-text 
+		span
+			font-size: 13px
+	.header__contact-tel
+		padding-right: 18px
+		span
+			font-size: 19px
+	.header__contact-week
+		span
+			font-size: 12px
+	.nav__Shop-block_resp-lg
+		display: block !important
+	.nav__Shop-block
+		padding-top: 10px
+
+@media(min-width: 1200px)
+	.slick-arrow
+		height: 100px
+	.sl__slide
+		img
+			// height: 166px
+		.sl__slide_title
+			top: 35%
+			left: 50px
+			font-size: 35px
+	.container
+		max-width: 1350px
+	.heder__container-block
+		padding-left: 50px
+		padding-right: 50px
+	.header__logo-text 
+		span
+			font-size: 13px
+	.header__contact-tel
+		padding-right: 18px
+		span
+			font-size: 19px
+	.header__contact-week
+		span
+			font-size: 12px
+	.nav__Shop-block_resp-lg
+		display: block !important
+	.nav__Shop-block
+		padding-top: 10px

@@ -1,0 +1,590 @@
+@media(min-width: 200px) and (max-width: 760px) {
+  .Mobile__header-section {
+    display: block !important;
+  }
+  .Mobile__header-section .Mobile__header-block {
+    height: 60px;
+  }
+  .Mobile__header-section .Mobile__header-block .Mobile__header-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #f0f1f6;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .Mobile__header-section .Mobile__header-block .Mobile__header-item:hover {
+    background: #3eade2;
+  }
+
+  .Mobile__header-burger {
+    background: #3eade2 !important;
+  }
+  .Mobile__header-burger:hover .burger__menu {
+    display: block;
+  }
+
+  .burger__menu {
+    background: #3eade2;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 600%;
+    padding: 15px;
+    display: none;
+  }
+  .burger__menu .burger__menu-ul {
+    padding: 0;
+  }
+  .burger__menu .burger__menu-ul .burger__menu-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    list-style-type: none;
+    padding: 8px 0px;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+  }
+  .burger__menu .burger__menu-ul .burger__menu-item:hover {
+    background: #15658c;
+  }
+  .burger__menu .burger__menu-ul .burger__menu-item .burger__menu-link {
+    color: #fff;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
+    display: block;
+  }
+
+  .header-section {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .slick-arrow {
+    height: 47px;
+  }
+
+  .sl__slide img {
+    height: 122px;
+  }
+  .sl__slide .sl__slide_title {
+    top: 29%;
+    left: 25px !important;
+    font-size: 17px;
+    padding: 0px 10px !important;
+  }
+}
+@media(min-width: 761px) and (max-width: 989px) {
+  .header__logo-block_img img {
+    width: 175px;
+  }
+
+  .header__logo-text span {
+    font-size: 10px;
+  }
+
+  .header__contact-tel {
+    padding-right: 8px;
+  }
+  .header__contact-tel span {
+    font-size: 12px;
+  }
+
+  .header__contact-week span {
+    font-size: 8px;
+  }
+
+  .nav__Shop-block_resp-md {
+    display: block !important;
+  }
+  .nav__Shop-block_resp-md .nav__Shop-block-width_resp-md {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .sl__slide img {
+    height: 166px;
+  }
+  .sl__slide .sl__slide_title {
+    top: 28%;
+    left: 50px;
+    font-size: 24px;
+  }
+
+  .slick-arrow {
+    height: 75px;
+  }
+}
+@media(min-width: 990px) and (max-width: 1200px) {
+  .slick-arrow {
+    height: 100px;
+  }
+
+  .sl__slide .sl__slide_title {
+    top: 35%;
+    left: 50px;
+    font-size: 35px;
+  }
+
+  .container {
+    max-width: 1350px;
+  }
+
+  .heder__container-block {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .header__logo-text span {
+    font-size: 13px;
+  }
+
+  .header__contact-tel {
+    padding-right: 18px;
+  }
+  .header__contact-tel span {
+    font-size: 19px;
+  }
+
+  .header__contact-week span {
+    font-size: 12px;
+  }
+
+  .nav__Shop-block_resp-lg {
+    display: block !important;
+  }
+
+  .nav__Shop-block {
+    padding-top: 10px;
+  }
+}
+@media(min-width: 1200px) {
+  .slick-arrow {
+    height: 100px;
+  }
+
+  .sl__slide .sl__slide_title {
+    top: 35%;
+    left: 50px;
+    font-size: 35px;
+  }
+
+  .container {
+    max-width: 1350px;
+  }
+
+  .heder__container-block {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .header__logo-text span {
+    font-size: 13px;
+  }
+
+  .header__contact-tel {
+    padding-right: 18px;
+  }
+  .header__contact-tel span {
+    font-size: 19px;
+  }
+
+  .header__contact-week span {
+    font-size: 12px;
+  }
+
+  .nav__Shop-block_resp-lg {
+    display: block !important;
+  }
+
+  .nav__Shop-block {
+    padding-top: 10px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\000034}}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\000039}}
+.Mobile__header-section {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000311}}
+.nav__Shop-block_resp-md {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000313}}
+.nav__Shop-block_resp-lg {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000315}}
+.header-section {
+  padding-top: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000317}}
+.header__info-block {
+  padding_bottm: 15px;
+  border-bottom: 1px solid #dddfdf;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000323}}
+.header__logo-block .header__logo-block_img .header__logo-text span {
+  color: #747688;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000326}}
+.header__input-block .input-group {
+  width: 500px;
+  margin-left: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000329}}
+.header__input-block .input-group .form-control {
+  font-size: 12px;
+  border-right: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000333}}
+.header__input-block .input-group .input-group-append .input-group-text {
+  background: #fff;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000336}}
+.header__contact-block .header__contact-tel {
+  padding-top: 6px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000338}}
+.header__contact-block .header__contact-tel span {
+  font-weight: 500;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000340}}
+.header__contact-week_brown {
+  color: #cb944c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000342}}
+.header__contact-week_brown .header__contact-week_grey {
+  color: #181616;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000346}}
+nav {
+  border-bottom: 1px solid #dddfdf;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000352}}
+.nav__menu-item {
+  padding-top: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000354}}
+.nav__menu-item .nav__menu-item-link {
+  font-size: 12px;
+  padding: 0px;
+  color: #181616;
+  font-weight: 500;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000360}}
+.nav__menu-item .nav__menu-item-link:hover {
+  color: #cb944c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000362}}
+.nav__menu-item .nav__menu-item-link .nav__menu-item-link-img {
+  padding: 0px 10px 0px 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000364}}
+.nav__menu-item_dropDown {
+  padding-bottom: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000367}}
+.nav__menu-item_dropDown:hover .menu-item_dropDown {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000369}}
+.nav__menu-item_dropDown .menu-item_dropDown {
+  border: 1px solid #dddfdf;
+  -webkit-box-shadow: 0px 0px 2px 0px #747688;
+          box-shadow: 0px 0px 2px 0px #747688;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+  width: 200px;
+  background: #fff;
+  left: 10px;
+  top: 54px;
+  display: none;
+  z-index: 999;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000381}}
+.nav__menu-item_dropDown .menu-item_dropDown .menu-item_dropDown-content {
+  padding-left: 30px;
+  list-style-type: none;
+  padding: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000385}}
+.nav__menu-item_dropDown .menu-item_dropDown .menu-item_dropDown-content .menu-item_dropDown-content-item {
+  color: #cb944c;
+  position: relative;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000389}}
+.nav__menu-item_dropDown .menu-item_dropDown .menu-item_dropDown-content .menu-item_dropDown-content-item:hover {
+  background: #dddfdf;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000391}}
+.nav__menu-item_dropDown .menu-item_dropDown .menu-item_dropDown-content .menu-item_dropDown-content-item .minielipse {
+  padding: 5px 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000393}}
+.nav__menu-item_dropDown .menu-item_dropDown .menu-item_dropDown-content .menu-item_dropDown-content-item .menu-link_dropDown-content {
+  font-size: 12px;
+  color: #747688;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\0000397}}
+.nav__menu-item_dropDown .menu-item_dropDown .menu-item_dropDown-content .menu-item_dropDown-content-item .menu-link_dropDown-content:hover {
+  text-decoration: none;
+  color: #cb944c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003100}}
+.nav__menu-item_dropDown .menu-item_dropDown .menu-item_dropDown-content .menu-item_dropDown-content-item .menu-link_dropDown-content .mrg {
+  margin-left: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003102}}
+.nav__menu-item_dropDown .menu-item_dropDown .menu-item_dropDown-content .menu-item_dropDown-content-item .stringRight {
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003108}}
+.menu-item_DropRight_weding:hover .menu_dropRight-content_weding, .menu-item_DropRight_weding:hover .menu_dropRight-content_Man {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003110}}
+.menu_dropRight-content_weding, .menu_dropRight-content_Man {
+  padding-bottom: 10px;
+  -webkit-box-shadow: 0px 0px 2px 0px #747688;
+          box-shadow: 0px 0px 2px 0px #747688;
+  position: absolute;
+  right: -175px;
+  top: 0;
+  background: #fff;
+  width: 175px;
+  border: 1px solid #dddfdf;
+  display: none;
+  padding: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003121}}
+.menu_dropRight-content_weding .menu-Title_dropRight-content_weding, .menu_dropRight-content_Man .menu-Title_dropRight-content_weding, .menu_dropRight-content_Man .menu-title_dropRight_Man {
+  font-size: 11px;
+  font-weight: 500;
+  padding: 0px 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003125}}
+.menu_dropRight-content_weding .item_dropRight-content_weding, .menu_dropRight-content_Man .item_dropRight-content_weding, .menu_dropRight-content_Man .menu-item_dropRight_Man {
+  list-style-type: none;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003128}}
+.menu_dropRight-content_weding .item_dropRight-content_weding:hover, .menu_dropRight-content_Man .item_dropRight-content_weding:hover, .menu_dropRight-content_Man .menu-item_dropRight_Man:hover {
+  background: #dddfdf;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003130}}
+.menu_dropRight-content_weding .item_dropRight-content_weding .link_dropRight-content_weding, .menu_dropRight-content_Man .item_dropRight-content_weding .link_dropRight-content_weding, .menu_dropRight-content_Man .menu-item_dropRight_Man .link_dropRight-content_weding, .menu_dropRight-content_Man .menu-item_dropRight_Man .menu-link_dropRight_Man {
+  font-size: 12px;
+  color: #747688;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003133}}
+.menu_dropRight-content_weding .item_dropRight-content_weding .link_dropRight-content_weding:hover, .menu_dropRight-content_Man .item_dropRight-content_weding .link_dropRight-content_weding:hover, .menu_dropRight-content_Man .menu-item_dropRight_Man .link_dropRight-content_weding:hover, .menu_dropRight-content_Man .menu-item_dropRight_Man .menu-link_dropRight_Man:hover {
+  text-decoration: none;
+  color: #cb944c;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003138}}
+.menu-item_DropRight_Man:hover .menu_dropRight-content_Man {
+  display: block;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003148}}
+.menu_dropRight-content_Man .menu-item_dropRight_Man .miniElipse {
+  padding: 5px 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003152}}
+.nav__Shop-block .nav__Shop-cart .nav__Shop-cart_link {
+  color: #2b3056;
+  font-size: 12px;
+  font-weight: 700;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003157}}
+.nav__Shop-block .nav__Shop-cart .nav__Shop-cart_link:hover {
+  text-decoration: none;
+  color: #cb944c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003160}}
+.nav__Shop-block .nav__Shop-cart .nav__Shop-cart_link .nav__Shop-cart_count {
+  background: #cb944c;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003167}}
+.nav__Shop-block .nav__Shop-cart .nav__Shop-cart_link img {
+  width: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003170}}
+.nav__Shop-block .nav__Shop-login .nav__Shop-login_link {
+  color: #2b3056;
+  font-size: 12px;
+  font-weight: 700;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003177}}
+.nav__Shop-block .nav__Shop-login .nav__Shop-login_link:hover {
+  text-decoration: none;
+  color: #cb944c;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003180}}
+.nav__Shop-block .nav__Shop-login .nav__Shop-login_link img {
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003186}}
+.slContent1 {
+  background: red !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003189}}
+.slick__section {
+  padding-top: 30px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003191}}
+.slick-arrow {
+  display: block;
+  background: #cb944c;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  opacity: 0.9;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003197}}
+.slick-arrow:hover {
+  background: #fff;
+  opacity: 0.9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003200}}
+.slick-prev {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003204}}
+.slick-prev::before {
+  content: "<";
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003210}}
+.slick-prev:hover::before {
+  content: "<";
+  color: #cb944c;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003215}}
+.slick-next {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003219}}
+.slick-next::before {
+  content: ">";
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003225}}
+.slick-next:hover::before {
+  content: ">";
+  color: #cb944c;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003232}}
+.slick-dots li button {
+  background: rgba(203, 148, 76, 0.7);
+  border-radius: 50%;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003236}}
+.slick-dots li button::before {
+  content: "";
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003238}}
+.slick-dots li button:hover {
+  background: #cb944c;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003241}}
+.slick-active {
+  background: #cb944c;
+  border-radius: 50%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003245}}
+.sl__slide {
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/User\/Desktop\/slicePlanet\%20Test\/sass\/main\.sass}line{font-family:\00003247}}
+.sl__slide .sl__slide_title {
+  background: rgba(203, 148, 76, 0.7);
+  color: #fff;
+  position: absolute;
+  left: 50px;
+  z-index: 999;
+  padding: 0px 50px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=main.css.map */

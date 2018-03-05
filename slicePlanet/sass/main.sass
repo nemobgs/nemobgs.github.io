@@ -1,0 +1,256 @@
+@import "colors"
+@import "fonts"
+@import "media"
+.row
+	margin-left: 0px
+	margin-right: 0px
+
+/// UP NAV
+.Mobile__header-section
+	display: none
+.nav__Shop-block_resp-md
+	display: none
+.nav__Shop-block_resp-lg
+	display: none
+.header-section
+	padding-top: 30px
+.header__info-block
+	padding_bottm: 15px
+	border-bottom: 1px solid $lgrey
+.header__logo-block
+	.header__logo-block_img
+		.header__logo-text
+			span
+				color: $grey
+.header__input-block
+	.input-group
+		width: 500px
+		margin-left: 15px
+		.form-control
+			font-size: 12px
+			border-right: 0px
+		.input-group-append
+			.input-group-text
+				background: $white
+.header__contact-block
+	.header__contact-tel
+		padding-top: 6px
+		span
+			font-weight: 500
+.header__contact-week_brown
+	color: $brown
+	.header__contact-week_grey
+		color: $black
+////////////////////////////////////////
+/// NAV
+nav
+	// padding-top: 15px
+	// padding-bottom: 15px
+	border-bottom: 1px solid $lgrey
+.nav__menu-block
+	.nav__menu
+.nav__menu-item
+	padding-top: 15px
+	.nav__menu-item-link
+		font-size: 12px
+		padding: 0px
+		color: $black
+		font-weight: 500
+		transition: 0.7s
+		&:hover
+			color: $brown
+		.nav__menu-item-link-img
+			padding: 0px 10px 0px 0px
+.nav__menu-item_dropDown
+	padding-bottom: 20px
+	&:hover
+		.menu-item_dropDown
+			display: block
+	.menu-item_dropDown
+		border: 1px solid $lgrey
+		box-shadow: 0px 0px 2px 0px $grey
+		padding-top: 10px
+		padding-bottom: 10px
+		position: absolute
+		width: 200px
+		background: $white
+		left: 10px
+		top: 54px
+		display: none
+		z-index: 999
+		.menu-item_dropDown-content
+			padding-left: 30px
+			list-style-type: none
+			padding: 0px
+			.menu-item_dropDown-content-item
+				color: $brown
+				position: relative
+				transition: 0.7s
+				&:hover
+					background: $lgrey
+				.minielipse
+					padding: 5px 10px
+				.menu-link_dropDown-content
+					font-size: 12px
+					color: $grey
+					transition: 0.3s
+					&:hover
+						text-decoration: none
+						color: $brown
+					.mrg
+						margin-left: 30px
+				.stringRight
+					position: absolute
+					right: 10px
+					top: 7px
+.menu-item_DropRight_weding
+	&:hover
+		.menu_dropRight-content_weding
+			display: block
+.menu_dropRight-content_weding
+	padding-bottom: 10px
+	box-shadow: 0px 0px 2px 0px $grey
+	position: absolute
+	right: -175px
+	top: 0
+	background: $white
+	width: 175px
+	border: 1px solid $lgrey
+	display: none
+	padding: 0px
+	.menu-Title_dropRight-content_weding
+		font-size: 11px
+		font-weight: 500
+		padding: 0px 5px
+	.item_dropRight-content_weding
+		list-style-type: none
+		transition: 0.7s
+		&:hover
+			background: $lgrey
+		.link_dropRight-content_weding
+			font-size: 12px
+			color: $grey
+			&:hover
+				text-decoration: none
+				color: $brown
+.menu-item_DropRight_Man
+	&:hover
+		.menu_dropRight-content_Man
+			display: block
+.menu_dropRight-content_Man
+	@extend .menu_dropRight-content_weding
+	.menu-title_dropRight_Man
+		@extend .menu-Title_dropRight-content_weding
+	.menu-item_dropRight_Man
+		@extend .item_dropRight-content_weding
+		.menu-link_dropRight_Man
+			@extend .link_dropRight-content_weding
+		.miniElipse
+			padding: 5px 10px
+.nav__Shop-block
+	.nav__Shop-cart
+		.nav__Shop-cart_link
+			color: $dblue
+			font-size: 12px
+			font-weight: 700
+			transition: 0.7s
+			&:hover
+				text-decoration: none
+				color: $brown
+			.nav__Shop-cart_count
+				background: $brown
+				color: $white
+				padding: 2px 4px
+				border-radius: 50%
+				margin-left: 10px
+				margin-right: 10px
+			img
+				width: 20px
+	.nav__Shop-login
+		.nav__Shop-login_link
+			color: $dblue
+			font-size: 12px
+			font-weight: 700
+			transition: 0.7s
+			margin-left: 10px
+			margin-right: 10px
+			&:hover
+				text-decoration: none
+				color: $brown
+			img
+				width: 20px
+				margin-left: 10px
+				margin-right: 10px
+
+//// SLICK SECTION ////
+.slContent1
+	background: red !important 
+
+.slick__section
+	padding-top: 30px
+.slick-arrow
+	display: block 
+	// height: 100px
+	background: $brown
+	transition: 0.7s
+	opacity: 0.9
+	&:hover
+		background: $white
+		opacity: 0.9
+.slick-prev 
+	position: absolute
+	left: 0
+	z-index: 1
+	&::before
+		content: '<'
+		color: $white
+		font-weight: bold
+		font-size: 24px
+	&:hover
+		&::before
+			content: '<'
+			color: $brown
+			font-weight: bold
+			font-size: 24px
+.slick-next
+	position: absolute
+	right: 0
+	z-index: 1
+	&::before
+		content: '>'
+		color: $white
+		font-weight: bold
+		font-size: 24px
+	&:hover
+		&::before
+			content: '>'
+			color: $brown
+			font-weight: bold
+			font-size: 24px
+.slick-dots
+	li
+		button
+			background: $OpaBrown
+			border-radius: 50%
+			transition: 0.7s
+			&::before
+				content: ''
+			&:hover
+				background: $brown
+
+.slick-active
+	background: $brown
+	border-radius: 50%
+
+.sl__slide
+	position: relative
+	.sl__slide_title
+		background: $OpaBrown
+		color: $white
+		position: absolute
+		// top: 35%
+		left: 50px
+		z-index: 999
+		padding: 0px 50px
+		font-weight: 400
+		// font-size: 35px
