@@ -33,10 +33,11 @@ body
 	padding: 20px 0px
 	.nav
 		.nav-item
+			padding-top: 5px
 			.nav-link
 				padding: 5px 15px
 				color: $white
-				font-size: 12px
+				font-size: 13px
 				&::after
 					content: ''
 					display: block
@@ -51,9 +52,12 @@ body
 		.dots
 			color: $white
 			position: relative
-			top: -2px
+			top: 3px
 			font-weight: bold
 .nav-btn
+	cursor: pointer
+	width: 102px
+	height: 40px
 	background: $orange
 	border: 0
 	border-radius: 5px
@@ -71,11 +75,12 @@ body
 	.title-text_yelo
 		font-family: "wpid-gagalin"
 		color: $yelo
-		font-size: 60px
+		font-size: 72px
 	.title-text_white
 		color: $white
 		font-family: "Lifehack"
-		font-size: 48px
+		font-size: 65px
+		line-height: 65px
 
 #section1
 	background-image: url('../img/bg/2.jpg')
@@ -86,11 +91,11 @@ body
 	position: absolute
 	top: 0px
 	width: 100%
-	padding: 50px 0px
+	padding-top: 80px
 	.section1-title
 		font-family: "wpid-gagalin"
 		color: $dgrey
-		font-size: 81px
+		font-size: 95px
 .section1-content
 	max-width: 1330px
 	position: relative
@@ -100,11 +105,11 @@ body
 	color: $dgrey
 	padding: 20px 0px
 	h3
-		font-size: 23px
+		font-size: 30px
 .page2_contentBlock-text
 	color: $dgrey
 	span
-		font-size: 14px
+		font-size: 18px
 
 #section2
 	background-image: url('../img/bg/3.jpg')
@@ -123,7 +128,7 @@ body
 	.slick_content_title
 		font-family: "wpid-gagalin"
 		color: $white
-		font-size: 60px
+		font-size: 72px
 		// line-height: 57px
 	.slick-content-text-mini
 		font-size: 12px
@@ -134,17 +139,19 @@ body
 			color: $orange
 			font-family: "wpid-gagalin"
 		.price_num
-			font-size: 65px
+			font-size: 72px
 		.price_ru
-			font-size: 25px
+			font-size: 30px
 		.price-btn
+			position: relative
+			top: -10px
 			background: $orange
 			border: 0
 			border-radius: 5px
 			transition: 0.5s
 			margin: 0px 25px
-			height: 30px
-			width: 95px
+			height: 38px
+			width: 100px
 			&:hover
 				background: darken($orange,10%)	
 			a
@@ -215,11 +222,15 @@ body
 .slick-prev
 	&::before
 		content: '<'
-		font-size: 40px
+		font-size: 35px
+		position: relative
+		top: -12px
 .slick-next
 	&::before
 		content: '>'
-		font-size: 40px
+		font-size: 35px
+		position: relative
+		top: -12px
 
 #section3
 	background-image: url('../img/bg/4.jpg')
@@ -229,6 +240,13 @@ body
 .page4__container
 	// padding: 0px 60px
 	padding-top: 20%
+.Pege4__Title
+	font-family: "wpid-gagalin"
+	font-size: 72px
+	color: $yelo
+	position: absolute
+	top: 20px
+	left: 130px
 .page4__accordion
 	height: 350px
 .page4_height
@@ -246,6 +264,7 @@ body
 	color: $white
 	transition: 0.5s
 	text-decoration: none
+	font-size: 14px
 	&::before
 		content: url('../img/bigImg/page4/icon/2.png')
 		padding-right: 5px
@@ -275,6 +294,13 @@ body
 	background-repeat: no-repeat
 	background-position: center
 	background-size: cover
+.page5__title
+	font-size: 72px
+	font-family: "wpid-gagalin"
+	position: absolute
+	top: 100px
+	left: 140px
+	color: $white
 .accordionP5_row-height
 	height: 100%
 	margin: 0
@@ -295,7 +321,7 @@ body
 	position: relative
 	top: 60%
 	left: 0
-	font-size: 25px
+	font-size: 35px
 .activeP5
 	background-color: $OPAdgrey
 	color: $yelo !important
@@ -356,7 +382,7 @@ body
 .page6_block-hover-btn
 	padding-top: 20px
 	button
-		background: $dgrey
+		background: darken($dgrey,5%)
 		height: 30px
 		widht: 100px
 		color: $white
@@ -447,7 +473,7 @@ body
 	span
 		color: $yelo
 		font-family: "wpid-gagalin"
-		font-size: 55px
+		font-size: 75px
 
 .Page7_input_text
 	font-size: 12px
@@ -503,10 +529,10 @@ body
 	height: 100%
 	width: 100%
 .footer_Text
-	font-size: 13px
+	font-size: 14px
 .footer-Tel
 	color: $orange
-	font-size: 12px
+	font-size: 14px
 	transition: 0.5s
 	&:hover
 		color: $yelo
